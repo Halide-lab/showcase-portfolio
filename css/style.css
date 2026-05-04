@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat.regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat.bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat.extrabold.otf') format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'WindSong';
+    src: url('../fonts/WindSong-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'WindSong';
+    src: url('../fonts/WindSong-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CBC0A0;
+    color: #690706;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: #CBC0A0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-content {
+    width: 88%;
+    max-width: 1400px;
+    position: relative;
+}
+
+.script-title {
+    font-family: 'WindSong', cursive;
+    font-size: 6.5rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 0.8;
+    margin-left: -130px;
+    margin-bottom: -15px;
+}
+
+.portfolio-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18rem;
+    font-weight: 900;
+    letter-spacing: -30px;
+    line-height: 0.78;
+    color: #580809;
+}
+
+.year {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: -5px;
+    margin-top: -15px;
+    margin-left: -140px;
+    color: #580809;
+}
+
+
+.name {
+    font-size: 3.3rem;
+    font-weight: 400;
+    letter-spacing: -5px;
+    margin-left: 120px;
+    margin-top: 22px;
+    color: #580809;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    background: #d3c7a7;
+    color: #580809;
+    padding: 80px;
+    max-width: 3000px;
+    min-height: 1000px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ .location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.location i {
+    font-size: 1.2rem;
+}
+
+/* ABOUT SECTION */
+.about .card {
+    position: relative;
+}
+
+.about .card h2 {
+    font-size: 5rem;
+    line-height: 0.9;
+    margin-bottom: 70px;
+}
+
+.about-text {
+    width: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.about-text p {
+    font-size: 1.25rem;
+    line-height: 1.15;
+    margin-bottom: 24px;
+    color: #111;
+}
+
+/* TEXT */
+h2 {
+    margin-bottom: 15px;
+    font-size: 5rem;
+    letter-spacing: -6px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+/* PROJECT LIST */
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
