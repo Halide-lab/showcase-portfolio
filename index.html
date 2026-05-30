@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Halde</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,62 +29,275 @@
 </section>
 
 
-<section class="about">
-    <div class="card">
-        <h2>Hello! <br> I'm Halde</h2>
+<section class="about frame-about">
+    <div class="about-frame">
+
+    <div class="about-left">
+        <h2>Hello!<br>I’m Halde</h2>
 
         <p class="location">
-        <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-location-dot"></i>
             Eindhoven
         </p>
-        
-        <div class="about-text">
+
+        <div class="about-columns">
             <div>
                 <p>My name is Halide, and I am 22 years old. I am currently a third semester Media Design student at Fontys University. I like creating designs and bringing them to life through coding.</p>
+
                 <p>I really enjoy designing and take great pleasure in the work I create. For me, the most important aspect of a design is that it is visually appealing and offers a unique feeling that goes beyond the ordinary.</p>
+
                 <p>In my portfolio, you will be able to see some of the work I have created.</p>
+
+                <p class="signature">Thank you for your interest</p>
             </div>
 
             <div>
                 <p>I don’t like looking at life from the same perspective as everyone else. I always want to be someone with my own originality and ideas.</p>
-                <p>I’m someone who deeply loves cats, and I find a quiet kind of peace in the endless sky and the calm of the sea places where everything feels a little softer and more meaningful.</p>
+
+                <p>I prefer to be a person who sees life in its details. I’m truly a sunset lover, and I’m a person who is curious about learning new things.</p>
+
+                <p>I’m someone who deeply loves cats, and find a quiet kind of peace in the endless sky and the calm of the sea places where everything feels a little softer and more meaningful.</p>
             </div>
         </div>
     </div>
+
+    <div class="about-right">
+
+        <div class="photo-collage">
+            <img src="images/photo3.jpeg" class="photo photo-1" alt="">
+            <img src="images/photo4.jpeg" class="photo photo-2" alt="">
+            <img src="images/photo7.jpeg" class="photo photo-3" alt="">
+            <img src="images/photo19.jpeg" class="photo photo-4" alt="">
+            <img src="images/photo22.jpeg" class="photo photo-5" alt="">
+            <img src="images/photo25.jpeg" class="photo photo-6" alt="">
+        </div>
+
+	<div id="hiddenGallery" style="display:none;">
+            <img src="images/photo1.jpeg" alt="">
+            <img src="images/photo2.jpeg" alt="">
+            <img src="images/photo5.jpeg" alt="">
+            <img src="images/photo6.jpeg" alt="">
+            <img src="images/photo8.jpeg" alt="">
+            <img src="images/photo9.jpeg" alt="">
+            <img src="images/photo10.jpeg" alt="">
+            <img src="images/photo11.jpeg" alt="">
+            <img src="images/photo12.jpeg" alt="">
+            <img src="images/photo13.jpeg" alt="">
+            <img src="images/photo14.jpeg" alt="">
+            <img src="images/photo15.jpeg" alt="">
+            <img src="images/photo16.jpeg" alt="">
+            <img src="images/photo17.jpeg" alt="">
+            <img src="images/photo18.jpeg" alt="">
+            <img src="images/photo20.jpeg" alt="">
+            <img src="images/photo21.jpeg" alt="">
+            <img src="images/photo23.jpeg" alt="">
+            <img src="images/photo24.jpeg" alt="">
+            <img src="images/photo26.jpeg" alt="">
+        </div>
+
+        <div class="photo-lightbox" id="photoLightbox">
+            <button class="lightbox-close" id="lightboxClose">×</button>
+            <button class="lightbox-btn left" id="prevPhoto">‹</button>
+            <img src="" alt="" id="lightboxImage">
+            <button class="lightbox-btn right" id="nextPhoto">›</button>
+        </div>
+
+
+        <div class="info-row">
+            <div>
+                <h3>Education</h3>
+                <p><br>2025 – Present<br>Media Design – Fontys University</p>
+            </div>
+
+            <div>
+                <h3>Languages</h3>
+                <p>
+                    I am originally from Turkey and speak Turkish as my native language.
+                    Currently live in the Netherlands, where I have learned Dutch,
+                    and I study in English.
+                </p>
+            </div>
+
+            <div>
+                <h3>Experience</h3>
+
+                <p>
+                    <em>2025–Present</em> - Media Design Student |
+                    Front-End Developer & UI Designer – Fontys University
+                </p>
+
+                <ul>
+                    <li>Designed and developed user interfaces for web-based applications</li>
+                    <li>Built responsive layouts and interactive components using HTML, CSS, and JavaScript</li>
+                    <li>Created prototypes in Figma and improved designs based on feedback and user testing</li>
+                    <li>Focused on visually appealing and user-friendly design solutions</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="bottom-quote">
+            I love subtle details, soft palettes, and<br>
+            storytelling that feels fresh and original.
+        </h3>
+
+    </div>
+
+</div>
+
 </section>
 
 
-<!-- FUNCTION -->
-<section class="function">
-    <div class="card">
-        <h2>My Function</h2>
-        <p>
-            I focus on creating modern, aesthetic, and meaningful digital products.
-            My goal is to combine design and functionality into one experience.
-        </p>
+<!-- SKILLS & PROJECTS -->
+<section class="skills-projects">
+    <div class="skills-frame">
+
+        <div class="skills-top">
+            <div class="skills-left">
+                <h2>Skills &<br>Projects</h2>
+
+                <p>
+                    I have experience working with Figma, HTML, CSS, JavaScript,
+                    React, and Node.js, which allowed me to combine both design
+                    and development in my projects.
+                </p>
+
+                <p>
+                    During my semesters in Multimedia Design and Front-End Development,
+                    I worked on several creative and interactive projects focused on
+                    visual design, responsive websites, animations, and user-centered
+                    experiences.
+                </p>
+            </div>
+
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Visual Design</li>
+                    <li>Motion Design</li>
+                    <li>Interaction Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Typography</li>
+                    <li>Branding</li>
+                </ul>
+            </div>
+
+            <div class="tools-list">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Figma</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="my-projects-title">My Projects</h3>
+
+        <div class="folder-row">
+            <a href="projects/cz.html" class="project-folder">
+                <div class="folder-preview">
+
+                    <img src="images/photo31.png" class="preview-img img-1" alt="">
+                    <img src="images/photo30.png" class="preview-img img-2" alt="">
+                    <img src="images/photo29.png" class="preview-img img-3" alt="">
+
+                    <i class="fa-solid fa-folder"></i>
+                </div>
+                <span>CZ</span>
+            </a>
+
+
+              <a href="projects/breathing.html" class="project-folder">
+
+                <div class="folder-preview">
+
+                    <img src="images/photo32.png" class="preview-img img-1" alt="">
+                    <img src="images/photo33.png" class="preview-img img-2" alt="">
+                    <img src="images/photo35.png" class="preview-img img-3" alt="">
+
+                    <i class="fa-solid fa-folder"></i>
+
+                </div>
+                <span>Breathing<br>Exercise</span>
+            </a>
+
+
+            <a href="projects/digital-paradise.html" class="project-folder">
+
+                <div class="folder-preview">
+
+                    <img src="images/photo36.png" class="preview-img img-1" alt="">
+                    <img src="images/photo37.png" class="preview-img img-2" alt="">
+                    <img src="images/photo38.png" class="preview-img img-3" alt="">
+
+                    <i class="fa-solid fa-folder"></i>
+
+                </div>
+                <span>Digital<br>Paradise</span>
+            </a>
+
+            <a href="projects/owow-dashboard.html" class="project-folder">
+
+                <div class="folder-preview">
+
+                    <img src="images/photo40.png" class="preview-img img-1" alt="">
+                    <img src="images/photo41.png" class="preview-img img-2" alt="">
+                    <img src="images/photo43.png" class="preview-img img-3" alt="">
+
+                    <i class="fa-solid fa-folder"></i>
+
+                </div>
+
+                <span>OWOW<br>Dashboard</span>
+
+            </a>
+        </div>
+
     </div>
 </section>
 
-<!-- PROJECTS -->
-<section class="projects">
-    <div class="card">
-        <h2>Projects</h2>
-        <ul>
-            <li>Showcase Portfolio</li>
-            <li>CZ Project</li>
-            <li>OWOW Dashboard</li>
-            <li>Breathing Exercise Application</li>
-        </ul>
-    </div>
-</section>
 
 <!-- CONTACT -->
-<section class="contact">
-    <div class="card">
-        <h2>Contact</h2>
-        <p>Email: hldnurgdk3453@gmail.com</p>
-        <p>Number: +31658936783</p>
-        <p>Social Media: </p>
+<section class="contact-section">
+    <div class="contact-frame">
+
+        <div class="contact-inner">
+
+            <div class="contact-left">
+                <h2>
+                    <span>Thanks</span>
+                    for stopping by.
+                </h2>
+
+                <p class="contact-text">
+                    Let’s get in touch to create something<br>
+                    meaningful together. ♡
+                </p>
+
+                <div class="contact-links">
+                    <p>
+                        <i class="fa-regular fa-envelope"></i>
+                        hldnurgdk3453@gmail.com
+                    </p>
+
+                    <p>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        linkedin.com/in/halidenur-guduk
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-image">
+                <img src="images/photo27.jpeg" alt="">
+            </div>
+
+        </div>
+
     </div>
 </section>
 
